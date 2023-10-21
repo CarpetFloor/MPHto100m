@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=Gabarito&display=swap");
+
+body {
+    background-color: #17202A;
+    color: #F8F9F9;
+    font-size: 2em;
+}
+input {
+    font-size: 0.75em;
+    outline: none;
+    border: none;
+    padding: 5px;
+}
+body, input {
+    font-family: "Gabarito";
+}
+#mainContainer {
+    /* background-color: grey; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 700px;
+    height: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 200px;
+}
+#mainContainer div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#equals {
+    margin-top: 100%;
+}

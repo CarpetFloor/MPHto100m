@@ -9,11 +9,23 @@
     <title>MPH to 100m</title>
 </head>
 <body>
-    <p>MPH</p>
-    <input type="number">
-    
-    <p>100m</p>
-    <input type="number">
+    <div id="mainContainer">
+        <div>
+            <p>MPH</p>
+            <input id="mphInput" type="text" step="0.01" oninput="mphEntered(this.value)">
+        </div>
+
+        <div>
+            <br>
+            <br>
+            <p id="equals">=</p>
+        </div>
+        
+        <div>
+            <p>100m</p>
+            <input id="timeInput" type="text" step="0.01" oninput="timeEntered(this.value)">
+        </div>
+    </div>
 
     <script src="script.js"></script>
 </body>
